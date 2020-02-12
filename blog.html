@@ -1,43 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Project: Recipe book</title>
+        <head>
         <meta charset="utf-8">
+        <title>Project: Blog</title>
+         
         <style>
+        body {background-color:pink; font-family:"roboto",serif;}
+        .blog {color:rgb(255, 255, 255);font-size:54px; font-weight:bold; font-family:san-serif; 
+        text-align: center;}
+        .Contents{font-size:30px; color:white;font-style:italic;}    
+        #morning_routines {color:white;font-size:34px;}
+        #night_routines {color:white; font-size:34px;}
+        p {color: white; font-size:19px;}
+        h3 {color: white; font-size:16px;font-style:italic;}
+        
+        table {border-collapse: collapse;}
+        table, td, th {border: 1px solid white;
+        background-color: rgb(245, 223, 240);}
+        td {padding: 5px;}
+        th {padding: 5px; background-color: rgb(242, 179, 215);}
+    
         </style>
     </head>
-    <body>
-       
-        <h1>____'s Recipe Book</h1>
-        
-        <h2>Contents:</h2>
-        
-        <ol>
-            <li><a href="?">Recipe #1</a></li>
-        </ol>
-        
-        <h2 id="?">Recipe #1</h2>
-        
+    
+    
+    <body>        
+        <h1 class="blog">...'s blog</h1>
+
+        <h3 class="Contents">Contents</h3>
         <ul>
-            <li>Time: _</li>
-            <li>Serves: _</li>
+            <li> <a href="#morning_routines">Morning routines</a></li>
+            <li><a href="#night_routines">Night routines </a></li>
         </ul>
         
+        <h2 id="morning_routines">Morning routines</h2>
+        <h3><em>July 11th, 2015</em></h3>
+        
+        <p><em>What does the morning of a high school student look like? :)</em></p>
         <table>
             <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
+            <tr>
+            <th> time </th>
+            <th> activities </th>
+            </tr>
+                <tbody>
+                    <tr>
+                        <td>7a.m-8a.m </td>
+                        <td>wake up, exercise, eat breakfast, go to school</td>
+                    </tr>
+                    <tr>
+                        <td>8a.m-12:25p.m</td>
+                        <td>AP Bio, APUSH, AB Cal, American Literature</td>
+                    </tr>
+                    <tr>
+                        <td>12:25p.m-12:55p.m
+                    
+                        <td>study for SAT</td>
+                    </tr>
+                    </tbody>
             </thead>
-            <tbody>
-            </tbody>
-        </table>
-        
-        <p><strong>Step 1:</strong> Do something.
-</p>
-        
-    <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-    
+            </table>
+            <p></p> 
+            <p> </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Morning_at_Grand_Manan_by_Alfred_Thompson_Bricher.jpg" alt="sun_rise" height="280" width="320">
+        <p><em>Source: <a href="https://unsplash.com/s/photos/night-sky">Sunrise Website</a></em></p>
+        <h2 id="night_routines">Night routines</h2>
+        <h6><em>July 11th, 2015</em></h6> 
+        <table>
+            <thead>
+            <tr>
+            <th> time </th>
+            <th> activities </th>
+            </tr>
+                <tbody>
+                    <tr>
+                        <td>4p.m-7p.m </td>
+                        <td>dinner, shower, relaxing time :)</td>
+                    </tr>
+                    <tr>
+                        <td>7p.m-10p.m</td>
+                        <td>do homework - study time</td>
+                    </tr>
+                    <tr>
+                        <td>10p.m-7a.m</td>
+                    
+                        <td>sleeping time :)</td>
+                    </tr>
+                    </tbody>
+            </thead>
+            </table>
+            <p></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Scottish_Dark_Sky_Observatory%2C_night_sky%2C_Dec_2017.jpg" alt="skynight" height="210" width="400">
+        <p><em>Source: <a href="https://unsplash.com/s/photos/night-sky">Night Sky Website</a></em></p>
     </body>
 </html>
